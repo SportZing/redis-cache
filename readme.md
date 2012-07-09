@@ -48,3 +48,16 @@ hook.on('*::doSomething', function(data, callback) {
 });
 ```
 
+## Configuration
+
+The `redisCache.init` method can take a redis url as a paramter as shown above, or a config object.
+
+```json
+{
+	"url": "redis://...",
+	"expire": 600
+}
+```
+
+The expire value is how long (in seconds) a value is held in cache.
+
