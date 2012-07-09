@@ -1,0 +1,23 @@
+{
+  "name": "redis-cache",
+  "version": "0.0.0",
+  "description": "A short-term redis caching module for passing data around by keys",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SportZing/redis-cache"
+  },
+  "keywords": [
+    "redis",
+    "cache"
+  ],
+  "author": "James Brumond",
+  "license": "MIT",
+  "dependencies": {
+    "uuid-v4": "0.0.2",
+    "redis-url": "~0.1.0"
+  }
+}
