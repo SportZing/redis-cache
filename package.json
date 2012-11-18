@@ -17,7 +17,7 @@
   "author": "James Brumond",
   "license": "MIT",
   "dependencies": {
-    "uuid-v4": "0.0.3",
+    "uuid-v4": "~0.1.0",
     "redis-url": "~0.1.0"
   }
 }
