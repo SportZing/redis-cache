@@ -1,6 +1,6 @@
 {
   "name": "redis-cache",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A short-term redis caching module for passing data around by keys",
   "main": "lib/index.js",
   "scripts": {
